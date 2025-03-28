@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  margin: 0px;
+  background-color: white;
+  color: white;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}
