@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { authSliceActions } from "../../store/authSlice";
 import styles from "./ProfilePage.module.css";
 import LogoutButton from "../Logout/LogoutButton";
@@ -9,6 +9,7 @@ import { Camera, User, Mail } from "lucide-react";
 import { logoutAsync } from "../../store/authSlice";
 import "../../index.css";
 import avatar from "./avatar.png";
+import { profileActions } from "../../store/profileSlice";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const ProfilePage = () => {
@@ -48,6 +49,10 @@ const ProfilePage = () => {
     }, [dispatch, navigate]);
     
 
+    const changeEnteringDetails = () => {
+        dispatch(profileActions.enterDetails());
+    }
+
     const handleImageUpload = async (e) => {
         const file = e.target.files[0];
         if (!file) return;
@@ -69,10 +74,11 @@ const ProfilePage = () => {
 
     return (
         <div className={styles.profileBody}>
-            <h1 className="text-3xl font-bold underline">Hello, {user.username}!</h1>
-            <div style={{ cursor: "pointer" }} onClick={handleLogout}>
+            {!isUpdatingProfile && <h1 className="text-3xl font-bold underline">Hello, {user.username}!</h1>}
+            <button className={styles.logoutButton} style={{display:"block" , margin : "20px"}} onClick={handleLogout}>
                 <LogoutButton />
-            </div>
+            </button>
+            {<Link to={"/enterDetails"} onClick={changeEnteringDetails} className={styles.logoutButton}>enter details</Link>}
         </div>
     );
 };

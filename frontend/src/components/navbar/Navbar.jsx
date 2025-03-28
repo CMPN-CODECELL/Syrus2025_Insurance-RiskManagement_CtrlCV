@@ -57,7 +57,7 @@ const Navbar = ({ transparent }) => {
                     </StyledButton>
                 </div>
             )}
-            {isLoggedIn && <Link className={styles.profileLink} to="/profile">profile</Link>}
+            {isLoggedIn && <Link className={styles.profileLink} to="/profile"></Link>}
         </nav>
     );
 };

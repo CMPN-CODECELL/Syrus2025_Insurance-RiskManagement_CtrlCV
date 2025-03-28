@@ -3,10 +3,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 
 .content{
-    color: white;
+    color: black;
 }
 
 .leftbar,.tagsDisplay{

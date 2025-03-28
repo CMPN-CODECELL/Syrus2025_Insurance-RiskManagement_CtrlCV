@@ -7,6 +7,7 @@ import LoginCard from "./components/LoginCard/LoginCard";
 import Dashboard from "./components/Dashboard/Dashboard";
 import ChatPage from "./components/Chatpage/ChatPage";
 import { ToastContainer } from 'react-toastify';
+import EnterDetails from "./components/EnterDetails/EnterDetails";
 
 function App() {
     return (
@@ -20,7 +21,9 @@ function App() {
                         <Route
                             path="/profile"
                             element={<ProfilePage />}
-                        ></Route>
+                        >
+                        </Route>
+                        <Route path="enterDetails" element={<EnterDetails />}></Route>
                         <Route path="/dashboard" element={<Dashboard />}></Route>
                         <Route path="/chatpage" element={<ChatPage />}></Route>
                     </Routes>

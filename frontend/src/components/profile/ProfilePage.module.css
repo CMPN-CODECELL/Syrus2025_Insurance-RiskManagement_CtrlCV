@@ -1,4 +1,64 @@
 .profileBody{
     padding: 20px;
+    color: black;
+}
+
+.logoutButton {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+.logoutButton::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.logoutButton:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+.logoutButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.logoutButton:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.enterDetails{
+    cursor: pointer;
+
+}
+
+.enterDetails:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+    display: inline;
 }

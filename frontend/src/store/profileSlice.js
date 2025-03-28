@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import EnterDetails from "../components/EnterDetails/EnterDetails";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const initialState = {
@@ -27,9 +28,13 @@ const profileSlice = createSlice({
         signUpButtonClicked: (state) => {
             state.isSigningUp = true;
         },
-        updateProfile: (state)=>{
-
+        enterDetails: (state)=>{
+            state.isUpdatingProfile = true;
+        },
+        enteredDetails: (state)=>{
+            state.isUpdatingProfile = false;
         }
+
     },
 });
 
