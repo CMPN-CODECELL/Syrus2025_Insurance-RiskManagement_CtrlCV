@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 //routers
 const AuthenticationRouter = require("./routes/authRoutes");
 const UserRouter = require("./routes/userRoutes");
-const MessageRouter = require("./routes/messageRoutes");
+// const MessageRouter = require("./routes/messageRoutes");
 const jwtAuth = require("./middlewares/jwtAuth");
 const User = require("./models/user");
 
@@ -66,7 +66,7 @@ app.use("/auth", AuthenticationRouter);
 
 app.use("/api/user" , UserRouter);
 
-app.use("/api/message", MessageRouter);
+// app.use("/api/message", MessageRouter);
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

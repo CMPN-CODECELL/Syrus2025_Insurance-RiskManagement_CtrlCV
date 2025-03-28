@@ -7,7 +7,8 @@
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: 1000; /* High value to ensure it's on top */
     padding: 1rem; 
-    color: white; 
+    /* color: white;  */
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -35,7 +36,7 @@
 .logo {
     width: 70px;
     height: 70px;
-    background-image: url("../../assets/blacklogo.png");
+    background-image: url("../../assets/UptiqSecureRemovedBackground.png");
     background-size: contain; /* Proper image scaling */
     background-repeat: no-repeat;
     background-position: center;
@@ -72,4 +73,10 @@
     align-items: center;
     text-decoration: none;
     color: white;
+}
+
+.authButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
 }

@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const Problem = require("./problem");
 
 const UserSchema = new mongoose.Schema(
     {
@@ -21,46 +20,11 @@ const UserSchema = new mongoose.Schema(
             type: String,
             // required: true,
         },
-        solvingProblems: [
+        contactNo : 
             {
-                problemId: {
-                    type: mongoose.Types.ObjectId,
-                    ref: "Problem",
-                    required: true,
-                },
-                solved: {
-                    type: Boolean,
-                    default: false,
-                },
-                attemptedAt: {
-                    type: Date,
-                    default: Date.now, // Stores attempt time
-                },
+                type: String,
             },
-        ],
-        issuedProblems: [
-            {
-                problemId: {
-                    type: mongoose.Types.ObjectId,
-                    ref: "Problem",
-                    required: true,
-                },
-                solved: {
-                    type: Boolean,
-                    default: false,
-                },
-                issuedAt: {
-                    type: Date,
-                    default: Date.now, // Stores attempt time
-                },
-            },
-        ],
-        contact : [
-            {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: "User", // References other users in the system
-            },
-        ]
+        
     },
     { timestamps: true }
 );

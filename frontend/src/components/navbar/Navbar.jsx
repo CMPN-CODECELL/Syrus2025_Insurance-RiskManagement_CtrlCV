@@ -39,13 +39,12 @@ const Navbar = ({ transparent }) => {
         >
             <div className={styles.logo}></div>
             <h1 onClick={navigateDashboard}>Dashboard</h1>
-            {isLoggedIn && <h1 onClick={navigateChatpage}>Discussion</h1>}
+            {isLoggedIn && <h1 onClick={navigateChatpage}>Chatbot</h1>}
             <h1>About Us</h1>
-            <h1>Problems</h1>
-            <h1>Rankings</h1>
+            <h1>Score Analysis</h1>
             <h1>Contact Us</h1>
             {!isLoggedIn && (
-                <div>
+                <div className={styles.authButtons}>
                     <StyledButton
                         executeFunction={loginRedirect}
                         displayText={"Login"}

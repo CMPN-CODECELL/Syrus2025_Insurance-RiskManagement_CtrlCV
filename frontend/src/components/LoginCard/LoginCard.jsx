@@ -77,7 +77,7 @@ function LoginCard() {
 
                 <p className="signup-text">
                     Don't have an account?{" "}
-                    <Link style={{ color: "#ccc" }} to="/signup">
+                    <Link style={{ color: "blue" }} to="/signup">
                         Sign up
                     </Link>
                 </p>

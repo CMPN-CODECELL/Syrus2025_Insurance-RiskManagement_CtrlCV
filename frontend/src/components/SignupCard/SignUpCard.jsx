@@ -156,7 +156,7 @@ const SignUpCard = () => {
                 </StyledButton>
                 <p className={styles.signupText}>
                     Already have an account?{" "}
-                    <Link style={{ color: "#ccc" }} to="/login">
+                    <Link style={{ color: "blue" }} to="/login">
                         Login
                     </Link>
                 </p>
