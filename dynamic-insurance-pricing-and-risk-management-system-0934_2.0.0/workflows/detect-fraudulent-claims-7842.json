@@ -1,0 +1,24 @@
+{
+  "_id": "e304fc15-c25b-4c19-ae37-204bacde2e57",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "integrationId": "detect-fraudulent-claims-7842",
+  "name": "Workflow for Detect Fraudulent Claims",
+  "publisherAccountId": "27f7f6e9-1218-41b8-b4d4-107d247993b7",
+  "startTaskId": "8a4414a9-5faa-417b-8060-63d069dff744",
+  "status": "Active",
+  "tasks": [
+    {
+      "_id": "8a4414a9-5faa-417b-8060-63d069dff744",
+      "transitions": [],
+      "type": "Display",
+      "config": {
+        "name": "Display",
+        "description": "Display the response to the user",
+        "type": "text",
+        "text": "Hi there! Intent $input.intent has been matched"
+      }
+    }
+  ],
+  "type": "Conversational",
+  "version": "latest"
+}

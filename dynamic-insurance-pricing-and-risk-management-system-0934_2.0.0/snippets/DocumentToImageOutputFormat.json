@@ -1,0 +1,7 @@
+{
+  "_id": "9e7aceda-deeb-4e6d-b253-9dd8f583c418",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "code": "const main = () => {\n    // Write your code here\n    return {\n        result: input.imagesResult.flatMap(imageRecord => imageRecord.images.map(img =>img.documentld)).join(\",\")\n        \n        \n    }\n    \n};\n\nmain()\n\n/*\n * Output\n * {\n *   \"result\": 3\n * }\n*/\n\n",
+  "name": "DocumentToImageOutputFormat",
+  "status": "Active"
+}
