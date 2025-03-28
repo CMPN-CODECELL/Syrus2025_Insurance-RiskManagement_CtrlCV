@@ -31,6 +31,10 @@ const Navbar = ({ transparent }) => {
         navigate("/chatpage");
     };
 
+    const handleClaim = () => {
+        navigate("/claim");
+    }
+
     return (
         <nav
             className={`${styles.navbar} ${
@@ -41,6 +45,7 @@ const Navbar = ({ transparent }) => {
             <h1 onClick={navigateDashboard}>Dashboard</h1>
             {isLoggedIn && <h1 onClick={navigateChatpage}>Chatbot</h1>}
             <h1>About Us</h1>
+            <h1 onClick={handleClaim}>claim</h1>
             <h1>Score Analysis</h1>
             <h1>Contact Us</h1>
             {!isLoggedIn && (

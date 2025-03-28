@@ -8,6 +8,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import ChatPage from "./components/Chatpage/ChatPage";
 import { ToastContainer } from 'react-toastify';
 import EnterDetails from "./components/EnterDetails/EnterDetails";
+import Claim from "./components/Claim/Claim";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <Route path="/" element={<Home />}></Route>
                         <Route path="/login" element={<LoginCard />}></Route>
                         <Route path="/signup" element={<SignUpCard />}></Route>
+                        <Route path="/claim" element={<Claim />}></Route>
                         <Route
                             path="/profile"
                             element={<ProfilePage />}
