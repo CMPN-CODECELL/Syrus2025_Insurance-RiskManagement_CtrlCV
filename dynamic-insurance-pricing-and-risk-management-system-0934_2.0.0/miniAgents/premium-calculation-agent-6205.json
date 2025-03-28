@@ -1,0 +1,27 @@
+{
+  "_id": "f0e95c2d-8772-44ad-aa3f-638f81e61d3e",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "integrationId": "premium-calculation-agent-6205",
+  "intentClassification": {
+    "modelId": "4cf651d9-edf3-455f-a22e-53cc67fcc07b"
+  },
+  "intents": [
+    {
+      "_id": "calculate-premium-6205",
+      "name": "Calculate Premium",
+      "description": "Determines the insurance premium based on the customer's risk score, adjusting dynamically as new data is received.",
+      "examples": [
+        "Calculate the premium for a customer with a high-risk job.",
+        "How does a recent health checkup affect my premium?",
+        "What is the premium adjustment for a non-smoker?"
+      ],
+      "flowType": "Workflow",
+      "workflowId": "e85bc39d-57ee-4dd8-a0cd-7c8143c71106"
+    }
+  ],
+  "name": "Premium Calculation Agent",
+  "primaryWorkflowId": "a2da5d9e-7f7f-409b-9473-dbe7588035ec",
+  "publisherAccountId": "27f7f6e9-1218-41b8-b4d4-107d247993b7",
+  "scope": "Implements a point-based system where various risk factors contribute to a customer's score, leading to dynamic adjustments in insurance premiums. Continuously refines premium calculations based on new data.",
+  "status": "Active"
+}

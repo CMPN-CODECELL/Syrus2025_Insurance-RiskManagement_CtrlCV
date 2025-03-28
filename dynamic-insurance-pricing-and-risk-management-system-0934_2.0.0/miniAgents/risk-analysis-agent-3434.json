@@ -1,0 +1,27 @@
+{
+  "_id": "4d39bf38-5926-4371-926f-3f96ea2eeadb",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "integrationId": "risk-analysis-agent-3434",
+  "intentClassification": {
+    "modelId": "4cf651d9-edf3-455f-a22e-53cc67fcc07b"
+  },
+  "intents": [
+    {
+      "_id": "generate-health-score-3434",
+      "name": "Generate Health Score",
+      "description": "Analyzes various data points such as lifestyle, job type, health habits, and location to produce a health score for insurance applicants.",
+      "examples": [
+        "What is the health score for a 35-year-old office worker who smokes?",
+        "Assess the risk level for a policyholder with a history of heart disease.",
+        "How does living in a high-crime area affect my health score?"
+      ],
+      "flowType": "Workflow",
+      "workflowId": "031193b4-b973-4425-9ebf-96a7f37a895b"
+    }
+  ],
+  "name": "Risk Analysis Agent",
+  "primaryWorkflowId": "d8d6bad6-de9d-4b19-b622-73de0441799b",
+  "publisherAccountId": "27f7f6e9-1218-41b8-b4d4-107d247993b7",
+  "scope": "Collects and analyzes real-time data from policyholders, including lifestyle habits, job type, medical history, and location, to generate a comprehensive health score. Utilizes behavioral analytics and predictive modeling to assess risk levels.",
+  "status": "Active"
+}

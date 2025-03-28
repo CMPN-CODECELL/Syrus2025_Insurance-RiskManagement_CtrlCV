@@ -1,0 +1,27 @@
+{
+  "_id": "9889856e-94af-442d-9400-cf3735213c7f",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "integrationId": "fraud-detection-agent-8496",
+  "intentClassification": {
+    "modelId": "4cf651d9-edf3-455f-a22e-53cc67fcc07b"
+  },
+  "intents": [
+    {
+      "_id": "detect-fraudulent-claims-8496",
+      "name": "Detect Fraudulent Claims",
+      "description": "Analyzes submitted claims and associated data to identify anomalies and potential fraud.",
+      "examples": [
+        "Is there any suspicious activity in the latest claim submission?",
+        "Analyze this medical report for inconsistencies.",
+        "Flag any anomalies in the financial data of this claim."
+      ],
+      "flowType": "Workflow",
+      "workflowId": "e304fc15-c25b-4c19-ae37-204bacde2e57"
+    }
+  ],
+  "name": "Fraud Detection Agent",
+  "primaryWorkflowId": "342324be-d246-40dc-ae4c-a9bfa710c1e6",
+  "publisherAccountId": "27f7f6e9-1218-41b8-b4d4-107d247993b7",
+  "scope": "Utilizes anomaly detection techniques on financial reports, medical records, and claim history to identify and flag potentially fraudulent claims. Leverages Uptiq’s financial anomaly detection for enhanced accuracy.",
+  "status": "Active"
+}

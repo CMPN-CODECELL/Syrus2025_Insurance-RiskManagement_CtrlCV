@@ -1,0 +1,27 @@
+{
+  "_id": "0413d6a3-2121-4aa1-a4ad-324757a3f189",
+  "aiPersonaId": "02dadf3f-14fb-4a70-87bb-0f654e7de478",
+  "integrationId": "data-visualization-agent-3301",
+  "intentClassification": {
+    "modelId": "4cf651d9-edf3-455f-a22e-53cc67fcc07b"
+  },
+  "intents": [
+    {
+      "_id": "generate-risk-reports-3301",
+      "name": "Generate Risk Reports",
+      "description": "Creates comprehensive reports and dashboards that visualize risk assessments and predictive analytics for insurers.",
+      "examples": [
+        "Generate a risk assessment report for the last quarter.",
+        "Show a dashboard of predictive analytics for premium strategies.",
+        "Visualize the risk levels of policyholders in urban areas."
+      ],
+      "flowType": "Workflow",
+      "workflowId": "990296f8-4906-43c9-b43d-d7e71ac96457"
+    }
+  ],
+  "name": "Data Visualization Agent",
+  "primaryWorkflowId": "9a08bfc1-a57b-442c-8afb-47d5659d9093",
+  "publisherAccountId": "27f7f6e9-1218-41b8-b4d4-107d247993b7",
+  "scope": "Generates detailed risk assessment reports and predictive analytics dashboards for insurers, providing insights into risk levels and premium strategies.",
+  "status": "Active"
+}
