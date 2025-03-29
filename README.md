@@ -43,7 +43,12 @@ Our system calculates an individual's Risk Score based on various health and lif
    - The AI model is enhanced with domain knowledge to detect fraudulent activities efficiently.
 
 ## System Architecture
-(Insert Flow Diagram / Architecture Image Here)
+![Image](https://github.com/user-attachments/assets/166df711-d1a5-434e-ae4b-647669a44ff7)
+
+![Image](https://github.com/user-attachments/assets/e8d26b21-537e-46cd-bec9-42e7086beae7)
+
+![Image](https://github.com/user-attachments/assets/f677b35c-6f84-4987-9b4b-ded175b29c48)
+
 
 ## Demo Video
 Check out our demo video showcasing the project:
