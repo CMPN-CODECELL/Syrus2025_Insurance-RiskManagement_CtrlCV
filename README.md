@@ -55,30 +55,12 @@ Check out our demo video showcasing the project:
 - Machine learning improvements for fraud detection
 - Partnership with insurance companies for industry adoption
 
-## Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo-url.git
-   ```
-2. Install dependencies:
-   ```sh
-   npm install  # If using Node.js
-   pip install -r requirements.txt  # If using Python
-   ```
-3. Run the application:
-   ```sh
-   npm start  # For frontend
-   python app.py  # For backend
-   ```
+
 
 ## Contributors
 - **Team Name:** CtrlCV
 - **Institute:** Vivekanand Education Society’s Institute of Technology
 
-## License
-This project is licensed under the MIT License.
-
----
 
 For any questions or contributions, feel free to open an issue or reach out!
 
