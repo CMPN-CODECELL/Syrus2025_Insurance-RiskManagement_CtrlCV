@@ -1,7 +1,7 @@
 # SYRUS - Dynamic Insurance Premium System
 
 ## Overview
-SYRUS is an innovative solution for insurance and risk management that leverages AI to dynamically calculate insurance premiums based on an individual's risk score. Traditional insurance models rely on historical data and generalized risk factors, which often result in inaccurate premium calculations. Our system personalizes insurance pricing by considering an individual's health, lifestyle, and other critical factors to determine a risk score that directly impacts their premium amount.
+This is an innovative solution for insurance and risk management that leverages AI to dynamically calculate insurance premiums based on an individual's risk score. Traditional insurance models rely on historical data and generalized risk factors, which often result in inaccurate premium calculations. Our system personalizes insurance pricing by considering an individual's health, lifestyle, and other critical factors to determine a risk score that directly impacts their premium amount.
 
 ## Problem Statement
 Traditional insurance pricing models depend on historical data and generalized risk factors, leading to inaccurate premium calculations. This can result in financial inefficiencies for both insurers and policyholders. Our approach ensures fairer pricing and incentivizes healthier lifestyles.
