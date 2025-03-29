@@ -49,6 +49,9 @@ Our system calculates an individual's Risk Score based on various health and lif
 Check out our demo video showcasing the project:
 [![SYRUS Demo](https://img.youtube.com/vi/iEGVvYh_nqg/0.jpg)](https://www.youtube.com/watch?v=iEGVvYh_nqg)
 
+## PPT LINK
+[[PPT Link ]](https://docs.google.com/presentation/d/1m82sFMTIa9qFrokgIxdNiP5hbKh_aho-lTzWY2IQJIY/edit?usp=sharing)
+
 ## Future Scope
 - Integration with wearable health tracking devices for real-time risk assessment
 - Expansion to other types of insurance (e.g., auto, life, home)
